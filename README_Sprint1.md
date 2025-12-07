@@ -15,7 +15,7 @@ Retailers lose money on logistics, refunds, and product handling due to returns.
 - **Target Variable:**  
   - `1` → Returned 
   - `0` → Not Returned  
-- **Input Features:** age, gender, state, quantity, price, discount, product rating, brand
+- **Input Features:** age, gender, state, quantity, price, discount, product rating, brand, Payment Mode
 
 The objective is to train a classifier that performs significantly better than simple baselines.
 
