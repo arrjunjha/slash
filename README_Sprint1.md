@@ -6,14 +6,14 @@
 In retail and e-commerce, product returns contribute significantly to operational and financial losses. This project aims to design a machine learning system that predicts whether an order will be returned or cancelled at the time of purchase.
 
 ## 2. Business Problem
-Retailers lose money on logistics, refunds, and product handling due to returns. Predicting return risk at order time allows interventions such as confirmation prompts, fraud detection, recommendation adjustments, and optimized shipping decisions.
+Retailers lose money on logistics, refunds, and product handling due to returns. Predicting return risk at order time allows interventions such as confirmation prompts, recommendation adjustments, and optimized shipping decisions.
 
 **Business Question:** “Will this item/order be returned?”
 
 ## 3. Machine Learning Problem
 - **Type:** Supervised Learning — Binary Classification  
 - **Target Variable:**  
-  - `1` → Returned or Cancelled  
+  - `1` → Returned 
   - `0` → Not Returned  
 - **Input Features:** age, gender, state, quantity, price, discount, product rating, brand
 
@@ -27,7 +27,7 @@ Two potential datasets were considered:
 - Clean return labels  
 - Good volume and structure
 
-### Candidate Dataset 2: Online Retail Dataset (UCI)
+### Candidate Dataset 2: Online Retail Dataset
 - This dataset had less numbers of features.
 - It does not had labellings.
 
@@ -43,7 +43,7 @@ Two potential datasets were considered:
 
 ## 6. Key Features
 - **Product/Order:** Category, price, discount, quantity, Product Rating, Brand
-- **Customer:** Customer ID, Gender, State, region , Age
+- **Customer:** Customer ID, Gender, State, region , Age, Return-Rate
 
 These are known correlates of return behavior.
 
