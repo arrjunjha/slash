@@ -42,7 +42,7 @@ Two potential datasets were considered:
 ```
 
 ## 6. Key Features
-- **Product/Order:** Category, price, discount, quantity, Product Rating, Brand
+- **Product/Order:** Category, price, discount, quantity, Product Rating, Brand, Payment Mode
 - **Customer:** Customer ID, Gender, State, region , Age, Return-Rate
 
 These are known correlates of return behavior.
