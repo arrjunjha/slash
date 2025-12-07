@@ -72,28 +72,12 @@ ML Model (.pkl)
 Prediction Output (Return / Not Return)
 ```
 
-## 9. Team Roles
-| Role | Responsibilities |
-|------|------------------|
-| Data Engineer | Dataset search, cleaning, preprocessing |
-| ML Engineer | Feature engineering, model training, evaluation |
-| Backend Engineer | API development and integration |
-| Frontend/Documentation | UI creation, diagrams, documentation |
-
-## 10. Completed Deliverables (Sprint 1)
+## 9. Completed Deliverables (Sprint 1)
 - Business & ML problem definition  
 - Dataset scouting + selection  
 - Label strategy  
 - Feature list  
 - Architecture design  
-- System diagram  
-- Team responsibility allocation  
+- System diagram    
 
-## 11. Next Steps (Sprint 2)
-- EDA  
-- Feature processing  
-- Model training  
-- Baseline comparison  
-- Evaluation (Precision, Recall, F1, ROC-AUC)  
-- Model optimization  
 
