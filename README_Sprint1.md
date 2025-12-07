@@ -71,6 +71,7 @@ ML Model (.pkl)
      ▼
 Prediction Output (Return / Not Return)
 ```
+<img width="1019" height="556" alt="image" src="https://github.com/user-attachments/assets/d641e5bd-e213-49c1-9051-c63c02186f6d" />
 
 ## 9. Completed Deliverables (Sprint 1)
 - Business & ML problem definition  
