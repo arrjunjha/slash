@@ -37,24 +37,21 @@ Two potential datasets were considered:
 
 ## 5. Label Definition
 ```
-1 = Returned / Cancelled
-0 = Not Returned
+1 = Yes
+0 = No
 ```
-If return flag exists → map directly.  
-If using invoice data → quantity < 0 indicates a return.
 
 ## 6. Key Features
-- **Product/Order:** Category, price, discount, quantity, vendor ID  
-- **Customer:** Customer ID, historical return rate, total orders, region  
-- **Context:** Purchase channel, day/time, seasonality, payment mode  
+- **Product/Order:** Category, price, discount, quantity, Product Rating, Brand
+- **Customer:** Customer ID, Gender, State, region , Age
 
 These are known correlates of return behavior.
 
 ## 7. High-Level System Architecture
-- **Python** for data handling and ML (pandas, sklearn, XGBoost)  
-- **FastAPI/Flask** for model serving  
-- **HTML/JS** minimal UI  
-- **joblib** for model serialization  
+- **Python** for data handling and ML (pandas, sklearn, XGBoost, Random Forest, Logistic Regression)  
+- **StreamLit** for model serving  
+- **joblib** for model serialization
+- 
 
 Flow:
 1. UI collects order details  
