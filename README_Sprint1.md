@@ -3,7 +3,7 @@
 ### Project: Predicting Product Return Risk in Retail Using Classification
 
 ## 1. Overview
-In retail and e-commerce, product returns contribute significantly to operational and financial losses. This project aims to design a machine learning system that predicts whether an order will be returned or cancelled at the time of purchase. This README documents all deliverables for Sprint 1.
+In retail and e-commerce, product returns contribute significantly to operational and financial losses. This project aims to design a machine learning system that predicts whether an order will be returned or cancelled at the time of purchase.
 
 ## 2. Business Problem
 Retailers lose money on logistics, refunds, and product handling due to returns. Predicting return risk at order time allows interventions such as confirmation prompts, fraud detection, recommendation adjustments, and optimized shipping decisions.
@@ -15,24 +15,25 @@ Retailers lose money on logistics, refunds, and product handling due to returns.
 - **Target Variable:**  
   - `1` → Returned or Cancelled  
   - `0` → Not Returned  
-- **Input Features:** Product details, customer attributes, order context, pricing, quantity, and purchase channel.
+- **Input Features:** age, gender, state, quantity, price, discount, product rating, brand
 
 The objective is to train a classifier that performs significantly better than simple baselines.
 
 ## 4. Dataset Scouting & Selection
 Two potential datasets were considered:
 
-### Candidate Dataset 1: Kaggle E-Commerce Returns Dataset
-- Contains product, customer, order, and return status  
+### Candidate Dataset 1: Product Return Risk Prediction
+- Contains age, gender, state, quantity, price, discount, product rating, brand  
 - Clean return labels  
 - Good volume and structure
 
 ### Candidate Dataset 2: Online Retail Dataset (UCI)
-- Invoice-level retail logs  
-- Returned items indicated via negative quantities
+- This dataset had less numbers of features.
+- It does not had labellings.
 
-### Selected Dataset: Kaggle E-Commerce Returns Dataset  
-**Reason:** Clear return flags, strong feature coverage, order-time availability, minimal ambiguity, and suitability for classification.
+
+### Selected Dataset: Product Return Risk Prediction 
+**Reason:** Clear return flags, strong feature coverage, discount and suitability for classification.
 
 ## 5. Label Definition
 ```
