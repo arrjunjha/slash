@@ -55,10 +55,9 @@ These are known correlates of return behavior.
 
 Flow:
 1. UI collects order details  
-2. API receives payload  
-3. Model loads & predicts  
-4. UI displays return risk  
-
+2. Model Loads & Predicts  
+3. UI displays return Yes/No
+ 
 ## 8. System Architecture Diagram
 ```
 Front-End UI
