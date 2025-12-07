@@ -79,6 +79,23 @@ Prediction Output (Return / Not Return)
 - Label strategy  
 - Feature list  
 - Architecture design  
-- System diagram    
+- System diagram 
+
+Model Evaluation (Sprint 1 Results)
+📌 Recall Comparison (70:30 Split)
+
+Across models:
+Logistic Regression: ~0.59
+Random Forest: ~0.54
+XBoost: ~0.50
+CatBoost: ~0.56
+KNN: ~0.49
+
+📌 After Tuning Recall Improved
+
+CatBoost → 0.618
+Logistic Regression → 0.612
+Random Forest → 0.588
+XGBoost → 0.554
 
 
