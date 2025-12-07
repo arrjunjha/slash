@@ -98,4 +98,9 @@ Logistic Regression → 0.612
 Random Forest → 0.588
 XGBoost → 0.554
 
+## Final Metrics
+<img width="1011" height="581" alt="image" src="https://github.com/user-attachments/assets/edc8090c-82cb-4e65-992c-5ea0f472703c" />
+
+## UI
+<img width="998" height="589" alt="image" src="https://github.com/user-attachments/assets/34caa2d2-721e-47e0-ba93-e1de9b47ebc1" />
 
